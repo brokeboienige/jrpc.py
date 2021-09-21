@@ -1,5 +1,5 @@
-from socket import *
-import time
+from socket import socket, AF_INET, SOCK_STREAM
+from time import sleep
 
 class xboxConsole():
     connected = False
@@ -21,16 +21,13 @@ class xboxConsole():
         except:
             raise ValueError("Invalid address")
 
-    def getConsoleType(self):
-        return self.sendTextCommand("consolefeatures ver=2 type=17 params=\"A\\0\\A\\0\\\"")
-
     def sendTextCommand(self, command):
         if self.connected:
             s = socket(AF_INET, SOCK_STREAM)
             s.connect((self.ip, self.port))
             s.send(bytes(command,"cp1252"))
             data = s.recv(1024)
-            time.sleep(5)
+            sleep(5)
             if self.debug == True:
                 print(command)
                 print(data)
