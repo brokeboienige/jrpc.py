@@ -7,7 +7,7 @@ pip install git+https://github.com/Enige1337/jrpc.py
 ```
 
 ## Usage:
-In order to use this you will need the JRPC2 plugin running on your Xbox 360 RGH or JTAG. Download it [JRPC2 Link](https://mega.nz/file/dMAS0bzT#7_BgBVURaD3PsAoX1brNHzfvScajJO5RN7rNz82rRE4, "here"). (It's inside JRPC2 folder)
+In order to use this you will need the JRPC2 plugin running on your Xbox 360 RGH or JTAG. Download it [here](https://mega.nz/file/dMAS0bzT#7_BgBVURaD3PsAoX1brNHzfvScajJO5RN7rNz82rRE4). (It's inside JRPC2 folder)
 
 ### Example script
 ```py
