@@ -7,7 +7,7 @@ pip install git+https://github.com/Enige1337/jrpc.py
 ```
 
 ## Usage:
-```
+```py
 from jrpc import xboxConsole, xNotifyLogos
 
 xbox = xboxConsole("192.168.1.2") # Creating the console class
