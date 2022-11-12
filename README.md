@@ -3,7 +3,7 @@ jrpc.py is a simple python library for using JRPC2 RGH/JTAG plugin by Xx jAmes t
 
 ## Installation:
 ```
-pip install git+https://github.com/Enige1337/jrpc.py
+pip install git+https://github.com/brokeboienige/jrpc.py
 ```
 
 ## Usage:
